@@ -21,7 +21,7 @@ jobs:
           project: wlsql852/cicd-sample # 워크스페이스 이름/프로젝트 이름 ex) nbc.docker/cicd
           stage: main
           yaml: |
-            name: cicd-sample# 프로젝트 이름 ex) `cicd`
+            name: cicd-sample # 프로젝트 이름 ex) `cicd`
             app: java@17
             options:
               ports: 8080
